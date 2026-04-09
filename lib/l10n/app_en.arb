@@ -1,0 +1,106 @@
+{
+  "@@locale": "en",
+  "appTitle": "Word Duel",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "close": "Close",
+  "back": "Back",
+  "loading": "Loading…",
+  "error": "Error",
+  "retry": "Retry",
+  "playAgain": "Play again",
+  "backToMenu": "Main menu",
+
+  "loginTitle": "Sign in",
+  "loginButton": "Sign in",
+  "logoutButton": "Sign out",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "anonymousLogin": "Play as guest",
+  "profileTitle": "Profile",
+  "usernameLabel": "Username",
+  "saveProfile": "Save",
+
+  "waitingForOpponent": "Waiting for opponent…",
+  "opponentFound": "Opponent found!",
+  "aiOpponent": "Playing against AI",
+  "searchingFor": "Searching for a player in {locale}…",
+  "@searchingFor": {
+    "placeholders": { "locale": { "type": "String" } }
+  },
+
+  "bettingTitle": "Place your bet",
+  "betFast": "10s — ×2 pts",
+  "betNormal": "15s — ×1 pt",
+  "betSlow": "20s — ×0.5 pt",
+  "confirmBet": "Confirm bet",
+
+  "roundLabel": "Round {current} of {total}",
+  "@roundLabel": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "themeLabel": "Theme: {theme}",
+  "@themeLabel": {
+    "placeholders": { "theme": { "type": "String" } }
+  },
+  "submitWord": "Submit",
+  "clearWord": "Clear",
+  "validWord": "Valid word! +{points} pts",
+  "@validWord": {
+    "placeholders": { "points": { "type": "int" } }
+  },
+  "invalidWord": "Invalid word",
+  "timeUp": "Time's up!",
+
+  "roundEnded": "Round ended",
+  "yourScore": "You",
+  "opponentScore": "Opponent",
+  "roundWinner": "{name} won the round!",
+  "@roundWinner": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "draw": "Draw!",
+  "nextRound": "Next round",
+
+  "gameOver": "Game over!",
+  "youWin": "You win!",
+  "youLose": "You lose!",
+  "finalScore": "Final score",
+  "totalPoints": "{points} points",
+  "@totalPoints": {
+    "placeholders": { "points": { "type": "int" } }
+  },
+
+  "leaderboardTitle": "Leaderboard",
+  "rankLabel": "#",
+  "playerLabel": "Player",
+  "scoreLabel": "Points",
+  "noRankingData": "No ranking data yet.",
+
+  "themeFood": "Food",
+  "themeAnimals": "Animals",
+  "themeSports": "Sports",
+  "themeTech": "Technology",
+
+  "upgradeToPro": "Upgrade to Pro",
+  "monthlyPlan": "Monthly Plan",
+  "yearlyPlan": "Yearly Plan",
+  "priceMonthly": "$3.99/month",
+  "priceYearly": "$24.99/year",
+  "noAds": "No ads",
+  "allLanguages": "All languages",
+  "globalRanking": "Global ranking",
+  "extraThemes": "Extra themes",
+  "buyLanguagePack": "Language pack — $1.99",
+  "buyThemePack": "Theme pack — $1.49",
+  "restorePurchases": "Restore purchases",
+  "alreadyPro": "You're already Pro!",
+
+  "adCountdown": "Close in {seconds}s",
+  "@adCountdown": {
+    "placeholders": { "seconds": { "type": "int" } }
+  }
+}

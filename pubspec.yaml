@@ -1,0 +1,60 @@
+name: word_duel
+description: Duelo de Palavras — jogo de palavras 1v1 em tempo real
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^14.0.0
+
+  # Backend / Realtime
+  supabase_flutter: ^2.5.0
+
+  # Local storage (dicionário offline)
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  # Monetização
+  purchases_flutter: ^6.25.0
+  google_mobile_ads: ^5.1.0
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.4.0
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/dictionaries/
+
+  # Adicione as fontes após baixar o Nunito do Google Fonts
+  # fonts:
+  #   - family: Nunito
+  #     fonts:
+  #       - asset: assets/fonts/Nunito-Regular.ttf
+  #       - asset: assets/fonts/Nunito-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Nunito-ExtraBold.ttf
+  #         weight: 800

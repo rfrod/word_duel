@@ -1,0 +1,106 @@
+{
+  "@@locale": "es",
+  "appTitle": "Duelo de Palabras",
+  "ok": "Aceptar",
+  "cancel": "Cancelar",
+  "close": "Cerrar",
+  "back": "Volver",
+  "loading": "Cargando…",
+  "error": "Error",
+  "retry": "Reintentar",
+  "playAgain": "Jugar de nuevo",
+  "backToMenu": "Menú principal",
+
+  "loginTitle": "Iniciar sesión",
+  "loginButton": "Entrar",
+  "logoutButton": "Salir",
+  "emailLabel": "Correo electrónico",
+  "passwordLabel": "Contraseña",
+  "anonymousLogin": "Jugar como invitado",
+  "profileTitle": "Perfil",
+  "usernameLabel": "Nombre de usuario",
+  "saveProfile": "Guardar",
+
+  "waitingForOpponent": "Esperando oponente…",
+  "opponentFound": "¡Oponente encontrado!",
+  "aiOpponent": "Jugando contra IA",
+  "searchingFor": "Buscando jugador en {locale}…",
+  "@searchingFor": {
+    "placeholders": { "locale": { "type": "String" } }
+  },
+
+  "bettingTitle": "Elige tu apuesta",
+  "betFast": "10s — ×2 pts",
+  "betNormal": "15s — ×1 pt",
+  "betSlow": "20s — ×0,5 pt",
+  "confirmBet": "Confirmar apuesta",
+
+  "roundLabel": "Ronda {current} de {total}",
+  "@roundLabel": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "themeLabel": "Tema: {theme}",
+  "@themeLabel": {
+    "placeholders": { "theme": { "type": "String" } }
+  },
+  "submitWord": "Enviar",
+  "clearWord": "Borrar",
+  "validWord": "¡Palabra válida! +{points} pts",
+  "@validWord": {
+    "placeholders": { "points": { "type": "int" } }
+  },
+  "invalidWord": "Palabra inválida",
+  "timeUp": "¡Tiempo agotado!",
+
+  "roundEnded": "Ronda terminada",
+  "yourScore": "Tú",
+  "opponentScore": "Oponente",
+  "roundWinner": "¡{name} ganó la ronda!",
+  "@roundWinner": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "draw": "¡Empate!",
+  "nextRound": "Siguiente ronda",
+
+  "gameOver": "¡Fin del juego!",
+  "youWin": "¡Ganaste!",
+  "youLose": "¡Perdiste!",
+  "finalScore": "Puntuación final",
+  "totalPoints": "{points} puntos",
+  "@totalPoints": {
+    "placeholders": { "points": { "type": "int" } }
+  },
+
+  "leaderboardTitle": "Clasificación",
+  "rankLabel": "#",
+  "playerLabel": "Jugador",
+  "scoreLabel": "Puntos",
+  "noRankingData": "Aún no hay datos de clasificación.",
+
+  "themeFood": "Gastronomía",
+  "themeAnimals": "Animales",
+  "themeSports": "Deportes",
+  "themeTech": "Tecnología",
+
+  "upgradeToPro": "Hazte Pro",
+  "monthlyPlan": "Plan Mensual",
+  "yearlyPlan": "Plan Anual",
+  "priceMonthly": "$3,99/mes",
+  "priceYearly": "$24,99/año",
+  "noAds": "Sin anuncios",
+  "allLanguages": "Todos los idiomas",
+  "globalRanking": "Clasificación global",
+  "extraThemes": "Temas extra",
+  "buyLanguagePack": "Pack de idioma — $1,99",
+  "buyThemePack": "Pack de tema — $1,49",
+  "restorePurchases": "Restaurar compras",
+  "alreadyPro": "¡Ya eres Pro!",
+
+  "adCountdown": "Cerrar en {seconds}s",
+  "@adCountdown": {
+    "placeholders": { "seconds": { "type": "int" } }
+  }
+}
